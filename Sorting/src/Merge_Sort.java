@@ -30,7 +30,7 @@ public class Merge_Sort {
 			if(arr[lowerStart] < arr[upperStart])
 				tempArray[count++] = arr[lowerStart++];
 			else
-				tempArray[count++] = arr[lowerStart++];
+				tempArray[count++] = arr[upperStart++];
 			
 		}
 		while(lowerStart <= lowerStop)
